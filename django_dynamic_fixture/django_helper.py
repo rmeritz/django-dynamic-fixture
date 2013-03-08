@@ -135,7 +135,7 @@ def field_is_a_parent_link(field):
 
 
 def field_has_choices(field):
-    return bool(len(field.choices) > 0 and field.choices)
+    return bool(field.choices)
 
 
 def field_has_default_value(field):
